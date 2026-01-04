@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{99
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.ProductAPI", "Microservice.ProductAPI\Microservice.ProductAPI.csproj", "{9F10DF29-0458-4B8F-B7DB-FC35251C987F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Web", "Microservice.Web\Microservice.Web.csproj", "{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{9F10DF29-0458-4B8F-B7DB-FC35251C987F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F10DF29-0458-4B8F-B7DB-FC35251C987F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F10DF29-0458-4B8F-B7DB-FC35251C987F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9F10DF29-0458-4B8F-B7DB-FC35251C987F} = {99508F0F-C130-443C-BA16-74129A515049}
+		{9E807F23-1A5B-48EE-8A0A-1AEAC470D24D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88CCB851-C813-413A-B69E-F6CEBA486BAA}
