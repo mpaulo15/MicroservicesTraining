@@ -4,13 +4,11 @@ namespace Microservice.Web.Services.IServices
 {
     public interface IProductService
     {
-        Task<IEnumerable<ProductModel>> findAllProducts();
-        Task<ProductModel> findProductById(long id);
-
+        Task<IEnumerable<ProductModel>> FindAllProducts();
+        Task<ProductModel> FindProductById(long id);
         Task<ProductModel> CreateProduct(ProductModel model);
         Task<ProductModel> UpdateProduct(ProductModel model);
-
-        Task<bool> DeleteProduct(long id);
+        Task<bool> DeleteProductById(long id);
 
     }
 }
